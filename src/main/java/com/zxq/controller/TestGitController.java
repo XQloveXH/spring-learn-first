@@ -14,6 +14,6 @@ public class TestGitController {
     }
     @GetMapping("test2")
     public String test2(){
-        return "test2 git";
+        return "test2 git   啊啊啊啊啊啊啊啊啊";
     }
 }
