@@ -12,4 +12,8 @@ public class TestGitController {
     public String helloGit(){
         return "Hello Git ";
     }
+    @GetMapping("test2")
+    public String test2(){
+        return "test2 git";
+    }
 }
